@@ -3,7 +3,7 @@ package myfirstlucent.internal.test;
 import java.io.IOException;
 
 import myfirstlucent.internal.Indexer;
-import myfirstlucent.internal.LuceneConstant;
+import myfirstlucent.internal.LuceneConstants;
 import myfirstlucent.internal.Searcher;
 import myfirstlucent.internal.TextFileFilter;
 
@@ -54,7 +54,7 @@ public class LuceneTester
        for(ScoreDoc scoreDoc : hits.scoreDocs) {
           Document doc = searcher.getDocument(scoreDoc);
              System.out.println("File: "
-             + doc.get(LuceneConstant.FILE_PATH));
+             + doc.get(LuceneConstants.FILE_PATH));
        }
        searcher.close();
     }

@@ -48,14 +48,14 @@ public class Indexer
        Document document = new Document();
 
        //index file contents
-       Field contentField = new Field(LuceneConstant.CONTENTS, 
+       Field contentField = new Field(LuceneConstants.CONTENTS, 
           new FileReader(file));
        //index file name
-       Field fileNameField = new Field(LuceneConstant.FILE_NAME,
+       Field fileNameField = new Field(LuceneConstants.FILE_NAME,
           file.getName(),
           Field.Store.YES,Field.Index.NOT_ANALYZED);
        //index file path
-       Field filePathField = new Field(LuceneConstant.FILE_PATH,
+       Field filePathField = new Field(LuceneConstants.FILE_PATH,
           file.getCanonicalPath(),
           Field.Store.YES,Field.Index.NOT_ANALYZED);
 

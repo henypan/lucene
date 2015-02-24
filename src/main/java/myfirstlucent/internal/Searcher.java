@@ -42,14 +42,14 @@ public class Searcher
        indexReader = DirectoryReader.open(indexDirectory);
        indexSearcher = new IndexSearcher(indexReader);
        queryParser = new QueryParser(Version.LUCENE_40,
-          LuceneConstant.CONTENTS,
+          LuceneConstants.CONTENTS,
           new StandardAnalyzer(Version.LUCENE_40));
     }
     
     public TopDocs search( String searchQuery) 
        throws IOException, ParseException{
        query = queryParser.parse(searchQuery);
-       return indexSearcher.search(query, LuceneConstant.MAX_SEARCH);
+       return indexSearcher.search(query, LuceneConstants.MAX_SEARCH);
     }
 
     public Document getDocument(ScoreDoc scoreDoc) 
