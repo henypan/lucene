@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-core/4.0.0/lucene-core-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-core/4.0.0/lucene-core-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-core/4.0.0/lucene-core-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-queries/4.0.0/lucene-queries-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-queries/4.0.0/lucene-queries-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-queries/4.0.0/lucene-queries-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-test-framework/4.0.0/lucene-test-framework-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-test-framework/4.0.0/lucene-test-framework-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-test-framework/4.0.0/lucene-test-framework-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-codecs/4.0.0/lucene-codecs-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-codecs/4.0.0/lucene-codecs-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-codecs/4.0.0/lucene-codecs-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/junit/junit/4.10/junit-4.10-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.0.1/randomizedtesting-runner-2.0.1.jar" sourcepath="M2_REPO/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.0.1/randomizedtesting-runner-2.0.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.0.1/randomizedtesting-runner-2.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-analyzers-common/4.0.0/lucene-analyzers-common-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-analyzers-common/4.0.0/lucene-analyzers-common-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-analyzers-common/4.0.0/lucene-analyzers-common-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-queryparser/4.0.0/lucene-queryparser-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-queryparser/4.0.0/lucene-queryparser-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-queryparser/4.0.0/lucene-queryparser-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-sandbox/4.0.0/lucene-sandbox-4.0.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-sandbox/4.0.0/lucene-sandbox-4.0.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/C09471.WHQ_NT_DOMAIN/.m2/repository/org/apache/lucene/lucene-sandbox/4.0.0/lucene-sandbox-4.0.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar"/>
+</classpath>
