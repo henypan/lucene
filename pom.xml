@@ -34,8 +34,6 @@
 	  </plugins>
 	</build>
 
-
-
 	<dependencies>
 	  	<dependency>
 			<groupId>org.apache.lucene</groupId>
@@ -63,6 +61,4 @@
 			<version>4.0.0</version>
 		</dependency>
 	</dependencies>
-
-	<url>http://www.lucenetutorial.com/lucene-in-5-minutes.html</url>
 </project>
